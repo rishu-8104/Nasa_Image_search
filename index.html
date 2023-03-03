@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA Image Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>NASA Image Search</h1>
+        <form>
+          <input
+            type="text"
+            id="search"
+            placeholder="Search NASA Images"
+          />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Most Popular Image</h2>
+        <div class="popular-image">
+          <img
+            src="https://apod.nasa.gov/apod/image/2202/LEGO_Moon_768.jpg"
+            alt="Most Popular Image"
+          />
+        </div>
+        <h2>Search Results</h2>
+        <div class="image-grid"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
